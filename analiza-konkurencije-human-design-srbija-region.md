@@ -87,7 +87,7 @@
 - Na mađarskom postoje **najmanje 3 besplatna kalkulatora karte** (myhumandesign.hu, webb.hu, szitarlaura.hu). Na srpskom postoji jedan, nedovršen.
 - WEBB design studio (webb.hu) ima „tudástár" (bazu znanja) i prodaje sopstvene proizvode, npr. **štampani dnevnik „JOURNÁL human design alapon" za 6.500 Ft (~16 €)**. To je primer fizičkog proizvoda vezanog za HD, koji u Srbiji ne postoji.
 - Snažan edukativni sadržaj: Énképlet tudástár, iranytuonmagadhoz.hu, Meetingmyself, humandesignhungary blog, YouTube predavanja Ra Uru Hua sa mađarskim prevodom.
-- Prevedenu HD knjigu na mađarskom pretraga nije pronašla.
+- Knjige o HD-u na mađarskom postoje: izdavač **Alvó Főnix Kiadó** („A Human Design Rendszer megalkotása") i **Human Design Tankönyv** (humandesignakademia.hu). Na srpskom takvog izdanja nema.
 
 **Vojvodina i Erdelj:** pretraga na mađarskom (Szabadka, Újvidék, Vajdaság, Kolozsvár) **nije pronašla nijednog lokalnog pružaoca usluga**. Mađarska zajednica u Srbiji (oko 184.000 ljudi prema popisu iz 2022) danas se oslanja na pružaoce iz Mađarske, koji naplaćuju u forintama ili evrima i ne poznaju lokalni kontekst.
 
