@@ -1,7 +1,7 @@
 # Analiza konkurencije: Human Design u Srbiji i regionu
 
 **Datum:** 31. 10. 2026.
-**Tržišta:** Srbija, Hrvatska, Slovenija, BiH, Crna Gora, Severna Makedonija, Bugarska
+**Tržišta:** Srbija, Hrvatska, Slovenija, BiH, Crna Gora, Severna Makedonija, Bugarska, Mađarska (+ mađarski jezik u Vojvodini i Erdelju)
 **Kontekst brenda:** essence.in.rs je trenutno doTERRA prodavnica sa besplatnim konsultacijama i iTOVi merenjem. Human Design ne postoji u ponudi, pa je ovo analiza **ulaska na novo tržište**, a ne odbrane postojeće pozicije.
 
 > **Ograničenja metodologije.** Podaci su prikupljeni iz javne veb-pretrage. Direktno učitavanje sajtova konkurenata bilo je blokirano mrežnim podešavanjima ove sesije. Nije bilo pristupa SEO alatima (Ahrefs/Semrush), Meta Ad Library, Instagram statistici ni AI-engine testovima. Zato **brojke o saobraćaju, autoritetu domena, broju pratilaca i budžetu za oglase nisu procenjene**, a sve navedene cene treba proveriti, jer su neke stranice stare 1–2 godine. Odeljci o SEO-u, oglasima i društvenim mrežama zasnovani su na tome šta se vidi u pretrazi, a ne na merenjima.
@@ -14,7 +14,8 @@
 2. **U Srbiji su aktivna 3–4 ozbiljna igrača**, svi u Beogradu: Evolve Academy Dorćol, Life&Mind Studio, Dajana Mitrović i (povremeno) Dr Jelena Verner. Niko od njih ne dominira pretragom.
 3. **Cene u regionu imaju tri nivoa:** ulazni (25–70 €), standardni (120–150 €) i premium (299–350 €+). U Srbiji između besplatnih radionica i 150 € za čitanje **nema ponude srednjeg nivoa**.
 4. **Slovenija je najzrelije tržište po sadržaju** (blogovi, besplatni PDF vodiči, liste čekanja). Hrvatska je najzrelija po edukaciji i višim cenama. BiH, Crna Gora i Severna Makedonija u pretrazi **nemaju vidljivu ponudu**.
-5. **Niko u regionu ne povezuje Human Design sa ritualima, aromaterapijom ili svakodnevnom brigom o sebi.** To je diferencijacija koju essence.in.rs prirodno ima, uz oprez oko zdravstvenih tvrdnji (videti odeljak 9).
+5. **Mađarsko tržište je najrazvijenije u okruženju:** 6+ pružalaca čitanja, 5 škola, 3 besplatna kalkulatora i fizički proizvodi (dnevnici). Služi kao model kako će se srpsko tržište razvijati. **Za mađarsku zajednicu u Vojvodini nije pronađena nijedna lokalna ponuda.**
+6. **Niko u regionu ne povezuje Human Design sa ritualima, aromaterapijom ili svakodnevnom brigom o sebi.** To je diferencijacija koju essence.in.rs prirodno ima, uz oprez oko zdravstvenih tvrdnji (videti odeljak 9).
 
 ---
 
@@ -55,6 +56,42 @@
 
 - **Human Design Bulgaria** (Sofija) predstavlja se kao zvanična nacionalna škola koju su ovlastili IHDS i Jovian Archive.
 - **Human Design Sofia** prodaje analize preko sajta sa popustima (promograd.bg), sa ocenom ~4,3/5 iz ~80 recenzija. To je model masovne prodaje uz popuste.
+
+### Mađarska (sajtovi na mađarskom jeziku)
+
+> Cene u forintama preračunate su orijentaciono, po kursu od ~400 Ft/€. Neke stranice su starije (2021–2023), pa cene treba proveriti.
+
+**Čitanja i analize**
+
+| Konkurent | Ponuda | Cene | ~€ | Napomena |
+|---|---|---|---|---|
+| **Szitár Laura – MANUÁL** (szitarlaura.hu) | **Besplatan HD kalkulator**, interaktivna analiza | od 9.700 Ft | ~24 € | Najniži ulazni proizvod u celom istraživanju |
+| **Nagy Katalin** (nagykatalin.hu) | Konsultacija uživo ili preko Skypea | prva 22.000 Ft; sledeće 15.000 Ft / 60 min, 18.000 Ft / 90 min | 55 € / 38 € / 45 € | Model „prva sesija + nastavak" |
+| **Vilden** (vilden.hu) | Pisana analiza, analiza + 60 min konsultacije, analiza odnosa | 25.000 / 35.000 / 25.000 Ft | 62 / 87 / 62 € | Pozicioniranje: „moderno samospoznavanje" |
+| **Tóth-Máté Adrienn** | Osnovna analiza (60–90 min coaching + PDF karta), dubinska analiza | 150 € | 150 € | Naplaćuje u evrima |
+| **My Human Design** (myhumandesign.hu) | Dubinska analiza u 2 sesije preko Zooma + snimak + pisana analiza; **besplatan generator karte**; vodič za početnike | 289 € | 289 € | Sadržaj optimizovan za SEO („Mi a Human Design? Kezdő útmutató") |
+| **Lakos Lilla** (lillalakos.com) | Pisano čitanje; čitanje + 30 min konsultacije | 69.000 / 109.000 Ft | 172 / 272 € | Premium, dugo čekanje (narudžbine se isporučuju u ciklusima) |
+| **Takács Gabriella**, **humandesignelemzes.hu**, **Meetingmyself** | Analize i edukativni blog | — | — | Dodatni sadržajni igrači |
+
+**Edukacija i škole** (ovo nedostaje u Srbiji)
+
+| Škola | Format | Cena | Napomena |
+|---|---|---|---|
+| **Human Design Iskola** (Lakos Lilla) | Kurs za čitače nivoa 1 i 2, samostalno učenje + završni ispit + sertifikat | Nije javno | Tvrdi da je „prva u Mađarskoj koja izdaje sertifikat"; otvara upis samo povremeno |
+| **Human Design Akadémia** (humandesign.hu / humandesignakademia.hu) | Online video kursevi, osnovni kurs; heksagrami i profili u razvoju | Nije javno | Tvrdi da je „prva škola na mađarskom"; drži **domen humandesign.hu** i Facebook stranicu „Human Design Magyarul" |
+| **Énképlet Akadémia** | 3 nivoa (Felfedező 8 modula, Master, Specialista); javna baza znanja (tudástár) | 5 × 50.000 Ft ili 220.000 Ft odjednom | ~550 € | Najstrukturisanija edukacija |
+| **TEC Hungary** | Living Your Design (8 × 1,5 h online), radionica | 350 €/os. (2023); radionica 139.000 Ft | ~350 € | Jedini koji navodi usklađenost sa kurikulumom IHDS-a |
+| **Iránytű önmagadhoz** | Akademija za analitičare | Nije javno | |
+
+**Sadržaj i alati**
+- Na mađarskom postoje **najmanje 3 besplatna kalkulatora karte** (myhumandesign.hu, webb.hu, szitarlaura.hu). Na srpskom postoji jedan, nedovršen.
+- WEBB design studio (webb.hu) ima „tudástár" (bazu znanja) i prodaje sopstvene proizvode, npr. **štampani dnevnik „JOURNÁL human design alapon" za 6.500 Ft (~16 €)**. To je primer fizičkog proizvoda vezanog za HD, koji u Srbiji ne postoji.
+- Snažan edukativni sadržaj: Énképlet tudástár, iranytuonmagadhoz.hu, Meetingmyself, humandesignhungary blog, YouTube predavanja Ra Uru Hua sa mađarskim prevodom.
+- Prevedenu HD knjigu na mađarskom pretraga nije pronašla.
+
+**Vojvodina i Erdelj:** pretraga na mađarskom (Szabadka, Újvidék, Vajdaság, Kolozsvár) **nije pronašla nijednog lokalnog pružaoca usluga**. Mađarska zajednica u Srbiji (oko 184.000 ljudi prema popisu iz 2022) danas se oslanja na pružaoce iz Mađarske, koji naplaćuju u forintama ili evrima i ne poznaju lokalni kontekst.
+
+**Šta Mađarska pokazuje o tome kako se tržište razvija:** čim ima dovoljno sadržaja, tržište se raslojava na (1) jeftine digitalne ulazne proizvode (9.700 Ft), (2) srednji nivo konsultacija (15.000–35.000 Ft), (3) premium pisana čitanja (69.000–109.000 Ft) i (4) sertifikovane škole (220.000 Ft+). Srbija je danas tamo gde je Mađarska bila pre otprilike 5–7 godina, pa je ovo okvirni plan razvoja.
 
 ### BiH, Crna Gora, Severna Makedonija, Novi Sad
 
@@ -193,6 +230,11 @@ Cene u dinarima i lokalni načini plaćanja već su prednost u odnosu na sve kon
 - BiH i Crna Gora nemaju lokalnu ponudu, a srpski i ijekavski su međusobno razumljivi. Online čitanja i sadržaj mogu da pokriju ceo region bez dodatnih troškova
 - Bugarska i Severna Makedonija nisu prioritet zbog jezika
 
+### 🟠 7. Mađarski jezik: Vojvodina pre Mađarske
+- **Ne ulaziti direktno na tržište Mađarske.** Tamo već postoji gusta konkurencija sa uhodanim školama i domenom humandesign.hu.
+- **Vojvodina je prazna niša:** dvojezična ponuda (srpski + mađarski) za Suboticu, Novi Sad, Sentu i Kanjižu. Na primer, osnovne stranice o tipovima i kalkulator karte na mađarskom (hreflang `hu-RS`) i online čitanje na mađarskom, ako postoji saradnik koji govori mađarski.
+- **Ideje koje vredi preuzeti iz Mađarske:** jeftin interaktivni ulazni proizvod (po uzoru na MANUÁL), model „prva konsultacija + jeftiniji nastavak" (Nagy Katalin) i štampani dnevnik ili planer po HD tipu (WEBB) kao fizički proizvod koji se može ponuditi uz postojeću prodavnicu.
+
 ### Sledeći koraci (ručna provera)
 1. Meta Ad Library: „human design" (RS, HR, BA)
 2. Instagram benchmark za 5 naloga (pratioci, angažovanje, učestalost objava)
@@ -229,5 +271,23 @@ Cene u dinarima i lokalni načini plaćanja već su prednost u odnosu na sve kon
 - [svetloba.si](https://www.svetloba.si/znanja/human-design-orodje-ki-prebuja-avtenticnost)
 - [promograd.bg – Human Design Sofia](https://promograd.bg/partner/human-design-sofia/votes.280)
 - [Human Design Bulgaria – Facebook](https://www.facebook.com/humandesignbulgaria/)
+- [Szitár Laura – MANUÁL kalkulator](https://szitarlaura.hu/human-design-kalkulator)
+- [Nagy Katalin – Human Design](http://nagykatalin.hu/human-design/)
+- [Vilden](https://www.vilden.hu/)
+- [Tóth-Máté Adrienn – mélyelemzés](https://tothmateadrienn.hu/product/human-design-magyarul-deep-reading/)
+- [My Human Design – személyes mélyelemzés](https://myhumandesign.hu/human-design-szemelyes-melyelemzes/)
+- [My Human Design – kezdő útmutató](https://myhumandesign.hu/mi-a-human-design/)
+- [Lakos Lilla – olvasat rendelés](https://www.lillalakos.com/hd-olvas%C3%A1s-rendel%C3%A9s1)
+- [Human Design Iskola](https://www.humandesigniskola.hu/)
+- [Human Design Akadémia](https://humandesign.hu/human-design-akademia)
+- [Human Design Magyarul – Facebook](https://www.facebook.com/humandesignmagyarul/)
+- [Énképlet Akadémia](https://www.akademia.enkeplet.hu/)
+- [Énképlet tudástár](https://enkeplet.hu/tudastar/)
+- [TEC Hungary – Human Design](https://www.tec-hungary.com/human-design.html)
+- [Iránytű önmagadhoz – Akadémia](https://iranytuonmagadhoz.hu/human-design-akademia/)
+- [WEBB design studio – tudástár](https://webb.hu/human-design-alapok)
+- [Takács Gabriella – Human Design](https://takacsgabriella.hu/human-design/)
+- [Meetingmyself](https://meetingmyself.hu/tobbfele-energiatipus-vagyunk-vegre-human-design-magyarul/)
+- [humandesignelemzes.hu](https://humandesignelemzes.hu/mi_a_human_design_onbizalom/)
 - [Bodygraph Studio](https://bodygraphstudio.com/en/bodygraph)
 - [Wikipedia – Human Design](https://en.wikipedia.org/wiki/Human_Design)
