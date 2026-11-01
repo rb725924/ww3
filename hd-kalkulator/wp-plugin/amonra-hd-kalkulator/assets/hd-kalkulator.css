@@ -1,0 +1,43 @@
+.hd-kalkulator{--hdk-accent:#b07a2a;--hdk-text:#2b2622;--hdk-muted:#7a6f66;--hdk-line:#e6e1da;--hdk-bg:#fbf8f4;
+  color:var(--hdk-text);font-size:16px;line-height:1.55;max-width:860px;margin:2rem auto}
+.hd-kalkulator *{box-sizing:border-box}
+.hdk-form{background:var(--hdk-bg);border:1px solid var(--hdk-line);border-radius:14px;padding:1.5rem}
+.hdk-row{margin-bottom:1rem}
+.hdk-2{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.hdk-form label{display:block;font-weight:600;font-size:.95rem}
+.hdk-form input{display:block;width:100%;margin-top:.35rem;padding:.7rem .8rem;border:1px solid #cfc6bb;border-radius:10px;font:inherit;background:#fff}
+.hdk-form input:focus{outline:2px solid var(--hdk-accent);outline-offset:1px}
+.hdk-place{position:relative}
+.hdk-suggest{position:absolute;z-index:20;left:0;right:0;margin:.25rem 0 0;padding:.25rem 0;list-style:none;background:#fff;border:1px solid #cfc6bb;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.08);max-height:260px;overflow:auto}
+.hdk-suggest li{padding:.55rem .8rem;cursor:pointer}
+.hdk-suggest li:hover{background:var(--hdk-bg)}
+.hdk-hint,.hdk-privacy{font-size:.85rem;color:var(--hdk-muted);margin:.25rem 0 1rem}
+.hdk-privacy{margin:1rem 0 0}
+.hdk-btn{display:inline-block;background:var(--hdk-accent);color:#fff!important;border:0;border-radius:999px;padding:.8rem 1.6rem;font:inherit;font-weight:700;cursor:pointer;text-decoration:none}
+.hdk-btn:hover{filter:brightness(.95)}
+.hdk-error{color:#b3261e;font-weight:600;margin:.75rem 0 0}
+.hdk-warn{background:#fff4e0;border-left:4px solid var(--hdk-accent);padding:.6rem .8rem;border-radius:6px}
+.hdk-result:empty{display:none}
+.hdk-card{margin-top:1.5rem;border:1px solid var(--hdk-line);border-radius:14px;padding:1.5rem;background:#fff}
+.hdk-title{margin:0;font-size:1.6rem}
+.hdk-meta{color:var(--hdk-muted);margin:.2rem 0 1rem;font-size:.9rem}
+.hdk-lead{font-size:1.05rem}
+.hdk-grid{display:grid;grid-template-columns:minmax(220px,1fr) 1.2fr;gap:1.5rem;align-items:start}
+.hdk-graph svg{width:100%;height:auto;max-width:360px;display:block;margin:0 auto}
+.hdk-legend{text-align:center;font-size:.8rem;color:var(--hdk-muted)}
+.hdk-sw{display:inline-block;width:18px;height:5px;border-radius:3px;vertical-align:middle;margin-left:.5rem}
+.hdk-sw-p{background:#2b2b2b}.hdk-sw-d{background:#c0392b}
+.hdk-facts{margin:0;display:grid;grid-template-columns:auto 1fr;gap:.55rem 1rem}
+.hdk-facts dt{font-weight:700;color:var(--hdk-muted);font-size:.9rem}
+.hdk-facts dd{margin:0}
+.hdk-facts small{display:block;color:var(--hdk-muted);font-size:.85rem;margin-top:.15rem}
+.hdk-planets{margin-top:1.25rem}
+.hdk-planets summary{cursor:pointer;font-weight:700}
+.hdk-planets table{border-collapse:collapse;margin-top:.5rem;width:100%;max-width:420px}
+.hdk-planets td,.hdk-planets th{padding:.25rem .5rem;border-bottom:1px solid var(--hdk-line);text-align:center}
+.hdk-d{color:#c0392b;font-weight:700}.hdk-p{color:#2b2b2b;font-weight:700}
+.hdk-pl{text-align:left!important}
+.hdk-cta{margin-top:1.25rem;padding:1rem 1.25rem;background:var(--hdk-bg);border-radius:12px;display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.hdk-cta p{margin:0;font-weight:600}
+.hdk-note{font-size:.8rem;color:var(--hdk-muted);margin-top:1rem}
+@media (max-width:640px){.hdk-2,.hdk-grid{grid-template-columns:1fr}}

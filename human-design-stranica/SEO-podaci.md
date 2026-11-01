@@ -34,7 +34,7 @@ WebP, širina 1200 px (fotografija autorke 400 px). Prva slika se učitava odmah
 Human Design · human dizajn · samospoznaja · energetski tipovi · Human Design karta · lični razvoj · astrologija · donošenje odluka
 
 ## Pre objave: zameni oznake {{...}}
-- `{{KALKULATOR_ILI_FORMA}}`: widget kalkulatora ili forma (datum, vreme, mesto, e-mail)
+- Kalkulator: već ubačen kao kratki kod `[hd_kalkulator]`. Potrebno je samo instalirati plugin iz `hd-kalkulator/wp-plugin/amonra-hd-kalkulator.zip`
 - `{{URL}}`: putanja do slika u Media Library
 - `{{URL_SAKRALNI_CENTAR}}`, `{{URL_EMOCIONALNI_CENTAR}}`: postojeći blog tekstovi
 - `{{URL_TVOJE_PITANJE}}`, `{{URL_SEDAM_NEDELJA}}`, `{{URL_BESPLATAN_RAZGOVOR}}`: stranice usluga
