@@ -1,0 +1,7 @@
+.amonra-hdk-preview{border:1px dashed #cfc6bb;border-radius:14px;padding:1.5rem;background:#fbf8f4;font-family:inherit}
+.amonra-hdk-preview h3{margin:0 0 .5rem;font-size:1.25rem}
+.amonra-hdk-preview p{margin:.25rem 0;color:#5f564e;font-size:.9rem}
+.amonra-hdk-fields{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1rem 0}
+.amonra-hdk-field{background:#fff;border:1px solid #cfc6bb;border-radius:10px;padding:.6rem .8rem;color:#9a9087;font-size:.9rem}
+.amonra-hdk-field.full{grid-column:1/-1}
+.amonra-hdk-btn{display:inline-block;background:var(--hdk-accent,#b07a2a);color:#fff;border-radius:999px;padding:.6rem 1.3rem;font-weight:700}

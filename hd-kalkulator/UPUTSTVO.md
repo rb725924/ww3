@@ -8,13 +8,24 @@ WordPress plugin koji na bilo koju stranicu dodaje besplatan Human Design kalkul
 
 1. Preuzmi `wp-plugin/amonra-hd-kalkulator.zip`.
 2. WordPress → **Dodaci → Dodaj novi → Otpremi dodatak** → izaberi zip → **Instaliraj** → **Aktiviraj**.
-3. Na stranici `/human-design/` dodaj blok **Kratki kod** (Shortcode) i upiši:
+3. Otvori stranicu `/human-design/` u editoru, klikni **+** (Dodaj blok), potraži **„Human Design“** i izaberi blok **Human Design kalkulator**.
+4. U bočnoj traci (ikonica zupčanika, kartica „Blok“) podesi:
+   - **Poziv na akciju:** link dugmeta (npr. stranica „Tvoje pitanje“), tekst i natpis na dugmetu
+   - **Podešavanja:** adresa stranica o tipovima, pretraga mesta preko interneta (uklj./isklj.), boja dugmeta
+   - Poravnanje (široko / puna širina) i razmaci kao i za svaki drugi blok
+5. Sačuvaj i otvori stranicu. U editoru se vidi samo pregled, a pravi kalkulator radi na objavljenoj stranici.
 
+U fajlu `human-design-stranica/human-design.html` mesto za blok je obeleženo komentarom `OVDE UBACI BLOK`.
+
+**Blok se može ubaciti i u šablone** (Izgled → Editor → Šabloni), na primer u poseban šablon za stranicu „Human Design“.
+
+Ako ceo tekst stranice lepiš u **Code editor** (⋮ → Code editor), blok možeš upisati direktno:
 ```
-[hd_kalkulator cta_url="https://amonra.in.rs/ADRESA-STRANICE-TVOJE-PITANJE/"]
+<!-- wp:amonra/hd-kalkulator {"ctaUrl":"https://amonra.in.rs/ADRESA-TVOJE-PITANJE/","align":"wide"} /-->
 ```
 
-U fajlu `human-design-stranica/human-design.html` kratki kod je već na pravom mestu.
+### Kratki kod (za klasične teme i stare stranice)
+I dalje radi `[hd_kalkulator cta_url="..."]`.
 
 ### Opcije kratkog koda
 | Opcija | Podrazumevano | Značenje |
@@ -30,6 +41,8 @@ Glavna boja se menja u CSS-u teme (Izgled → Prilagodi → Dodatni CSS):
 ```css
 .hd-kalkulator { --hdk-accent: #b07a2a; }
 ```
+
+**Zahtev:** WordPress 6.3 ili noviji.
 
 ## Privatnost (GDPR)
 - Karta se računa **u pregledaču posetioca**. Datum i vreme rođenja ne šalju se na tvoj ni na bilo čiji server.
@@ -47,7 +60,7 @@ Glavna boja se menja u CSS-u teme (Izgled → Prilagodi → Dodatni CSS):
 ```bash
 cd hd-kalkulator
 npm install
-npm test        # testovi logike (9)
+npm test        # testovi logike i bloka (11)
 npm run build   # pravi assets/hd-kalkulator.js i .css
 cd wp-plugin && zip -r amonra-hd-kalkulator.zip amonra-hd-kalkulator
 ```
@@ -59,4 +72,5 @@ Demo bez WordPressa: `demo/index.html`.
 | `src/bodygraph.js` | SVG crtež karte |
 | `src/texts.js` | svi tekstovi na srpskom i lista gradova |
 | `src/app.js` | forma, pretraga mesta, prikaz rezultata |
-| `wp-plugin/amonra-hd-kalkulator/` | WordPress plugin (kratki kod `[hd_kalkulator]`) |
+| `wp-plugin/amonra-hd-kalkulator/block/` | Gutenberg blok (`block.json`, `editor.js`, `render.php`) |
+| `wp-plugin/amonra-hd-kalkulator/` | WordPress plugin (blok + kratki kod `[hd_kalkulator]`) |

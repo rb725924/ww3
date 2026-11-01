@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "amonra/hd-kalkulator",
+  "version": "1.1.0",
+  "title": "Human Design kalkulator",
+  "category": "widgets",
+  "icon": "admin-users",
+  "description": "Besplatan Human Design kalkulator na srpskom: bodygraf, tip, strategija, autoritet, profil i inkarnacijski krst.",
+  "keywords": ["human design", "human dizajn", "bodygraf", "kalkulator", "karta"],
+  "textdomain": "amonra-hd-kalkulator",
+  "attributes": {
+    "typesBase": { "type": "string", "default": "/human-design/" },
+    "ctaUrl": { "type": "string", "default": "" },
+    "ctaText": { "type": "string", "default": "Želiš da zajedno pročitamo tvoju kartu?" },
+    "ctaButton": { "type": "string", "default": "Zakaži razgovor" },
+    "geocode": { "type": "boolean", "default": true },
+    "accentColor": { "type": "string", "default": "" }
+  },
+  "supports": {
+    "html": false,
+    "align": ["wide", "full"],
+    "anchor": true,
+    "spacing": { "margin": true, "padding": true }
+  },
+  "example": {},
+  "editorScript": "file:./editor.js",
+  "editorStyle": "file:./editor.css",
+  "style": "amonra-hdk",
+  "viewScript": "amonra-hdk",
+  "render": "file:./render.php"
+}
