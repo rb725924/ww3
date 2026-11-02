@@ -4,18 +4,18 @@ export const TYPES = {
   generator: {
     name: 'Generator',
     slug: 'generator',
-    strategy: 'Čekaj da odgovoriš',
+    strategy: 'Odgovaranje (čekaj da odgovoriš)',
     signature: 'Zadovoljstvo',
     notSelf: 'Frustracija',
     short: 'Imaš definisan sakralni centar, stalan izvor životne i radne energije. Najbolje ti ide kad odgovaraš na ono što ti život donese, umesto da sve pokrećeš iz glave.',
   },
   manifesting_generator: {
-    name: 'Manifestujući generator',
-    slug: 'manifestujuci-generator',
-    strategy: 'Čekaj da odgovoriš, pa obavesti',
+    name: 'Manifestatorski generator',
+    slug: 'manifestatorski-generator',
+    strategy: 'Odgovaranje, pa informisanje',
     signature: 'Zadovoljstvo i mir',
     notSelf: 'Frustracija i ljutnja',
-    short: 'Imaš energiju generatora i brzinu manifestora. Prirodno ti je da radiš više stvari odjednom i da preskačeš korake. Pre nego što kreneš, obavesti ljude kojih se to tiče.',
+    short: 'Imaš energiju generatora i brzinu manifestatora. Prirodno ti je da radiš više stvari odjednom i da preskačeš korake. Pre nego što kreneš, obavesti ljude kojih se to tiče.',
   },
   projector: {
     name: 'Projektor',
@@ -26,9 +26,9 @@ export const TYPES = {
     short: 'Tvoj dar je da duboko vidiš ljude i sisteme. Za velike odluke (posao, ljubav, selidba) najbolje ti je da sačekaš da te neko prepozna i pozove.',
   },
   manifestor: {
-    name: 'Manifestor',
-    slug: 'manifestor',
-    strategy: 'Obavesti pre nego što kreneš',
+    name: 'Manifestator',
+    slug: 'manifestator',
+    strategy: 'Informisanje (obavesti pre nego što kreneš)',
     signature: 'Mir',
     notSelf: 'Ljutnja',
     short: 'Jedini si tip koji može da pokrene stvari bez čekanja. Kad pre toga obavestiš ljude na koje će to uticati, nailaziš na mnogo manje otpora.',
@@ -44,7 +44,7 @@ export const TYPES = {
 };
 
 export const AUTHORITIES = {
-  emotional: { name: 'Emocionalni (solarni pleksus)', short: 'Nema istine u trenutku. Pusti da emocionalni talas prođe i odluči kad osetiš mirnu jasnoću.' },
+  emotional: { name: 'Emotivni', short: 'Nema istine u trenutku. Pusti da emotivni talas prođe i odluči kad osetiš mirnu jasnoću.' },
   sacral: { name: 'Sakralni', short: 'Odluka je telesno „da“ ili „ne“ u trenutku, pre nego što se um umeša.' },
   splenic: { name: 'Slezinski', short: 'Tih, brz instinkt koji se javlja samo jednom. Veruj prvom osećaju.' },
   ego_manifested: { name: 'Ego (manifestovani)', short: 'Slušaj šta govoriš kad pričaš o odluci: da li to zaista želiš i stojiš iza toga?' },
@@ -71,9 +71,9 @@ export const ANGLES = {
 export const PROFILE_LINES = {
   1: 'istraživač',
   2: 'pustinjak',
-  3: 'eksperimentator',
-  4: 'mrežar',
-  5: 'rešavač',
+  3: 'mučenik',
+  4: 'oportunista',
+  5: 'jeretik',
   6: 'uzor',
 };
 
@@ -81,10 +81,10 @@ export const CENTER_NAMES = {
   head: 'Glava',
   ajna: 'Ajna',
   throat: 'Grlo',
-  g: 'G centar',
-  heart: 'Srce (ego)',
+  g: 'G (Dži) centar',
+  heart: 'Srce (volja)',
   spleen: 'Slezina',
-  solar: 'Solarni pleksus',
+  solar: 'Solarni pleksus (emotivni)',
   sacral: 'Sakralni',
   root: 'Koren',
 };

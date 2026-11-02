@@ -14,7 +14,7 @@ Tekst stranice: `human-design.html` (~3.000 reči, zajedno sa tabelama i rečnik
   1. human dizajn (+ ljudski dizajn)
   2. šta je human design
   3. human design karta / izračunaj human design kartu
-  4. human design tipovi (generator, projektor, manifestor, reflektor)
+  4. human design tipovi (generator, projektor, manifestator, reflektor)
   5. human design autoritet i profil
 
 ## Slike (naziv fajla → ALT)
@@ -22,7 +22,7 @@ Tekst stranice: `human-design.html` (~3.000 reči, zajedno sa tabelama i rečnik
 |---|---|
 | `human-design-karta-bodygraf-primer.webp` | Primer Human Design karte (bodygraf) sa 9 centara, kanalima i kapijama |
 | `human-design-i-astrologija-razlike.webp` | Poređenje Human Design karte i astrološke natalne karte |
-| `human-design-5-tipova-infografika.webp` | Infografika 5 tipova u Human Designu: generator, manifestujući generator, projektor, manifestor i reflektor |
+| `human-design-5-tipova-infografika.webp` | Infografika 5 tipova u Human Designu: generator, manifestatorski generator, projektor, manifestator i reflektor |
 | `human-design-autoritet-donosenje-odluka.webp` | Prikaz sedam unutrašnjih autoriteta u Human Designu za donošenje odluka |
 | `human-design-9-centara-definisani-otvoreni.webp` | Devet centara u Human Design karti, definisani obojeni i otvoreni beli |
 | `human-design-profili-12-kombinacija.webp` | Tabela 12 profila u Human Designu, od 1/3 do 6/3 |

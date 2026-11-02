@@ -5,12 +5,12 @@ Sve stranice su podstranice glavnog vodiča `/human-design/`. Linkuju nazad ka v
 | Stranica | URL | Reči |
 |---|---|---|
 | Generator | `/human-design/generator/` | ~1.150 |
-| Manifestujući generator | `/human-design/manifestujuci-generator/` | ~1.050 |
+| Manifestatorski generator | `/human-design/manifestatorski-generator/` | ~1.050 |
 | Projektor | `/human-design/projektor/` | ~1.000 |
-| Manifestor | `/human-design/manifestor/` | ~900 |
+| Manifestator | `/human-design/manifestator/` | ~900 |
 | Reflektor | `/human-design/reflektor/` | ~950 |
 
-Svaka stranica ima isti raspored: prvi pasus sa direktnim odgovorom, „Ukratko“, mehaniku tipa, strategiju, potpis i temu „ne-sebe“, moguće autoritete, auru, posao, odnose, odmor, zablude, eksperiment, FAQ, poziv na uslugu i izvore.
+Svaka stranica ima isti raspored: prvi pasus sa direktnim odgovorom, „Ukratko“, mehaniku tipa, strategiju, potpis i temu „lažno ja“, moguće autoritete, auru, posao, odnose, odmor, zablude, eksperiment, FAQ, poziv na uslugu i izvore.
 
 ---
 
@@ -21,18 +21,18 @@ Svaka stranica ima isti raspored: prvi pasus sa direktnim odgovorom, „Ukratko�
 - **Sekundarne:** human design generator strategija · sakralni autoritet · generator čekaj da odgovoriš · generator frustracija · sakralni centar
 - **Slike:**
   - `generator-human-design-sakralni-centar.webp`: Generator u Human Designu, karta sa definisanim sakralnim centrom
-  - `generator-strategija-cekaj-da-odgovoris.webp`: Strategija generatora u Human Designu: čekaj da odgovoriš, potpis zadovoljstvo, ne-sebe frustracija
+  - `generator-strategija-cekaj-da-odgovoris.webp`: Strategija generatora u Human Designu: čekaj da odgovoriš, potpis zadovoljstvo, lažno ja: frustracija
 - **Tagovi:** Human Design · generator · sakralni centar · energetski tipovi · strategija · donošenje odluka
 
-## 2. Manifestujući generator: `/human-design/manifestujuci-generator/`
-- **Title (46):** Manifestujući generator u Human Designu: vodič
-- **Meta opis (145):** Manifestujući generator u Human Designu: zašto preskače korake, kako izgleda strategija odgovori pa obavesti i kako da brzina ne pređe u ljutnju.
-- **Primarna:** manifestujući generator
-- **Sekundarne:** manifesting generator srpski · MG human design · manifestujući generator strategija · generator ili manifestujući generator · manifestujući generator ljutnja
+## 2. Manifestatorski generator: `/human-design/manifestatorski-generator/`
+- **Title (48):** Manifestatorski generator u Human Designu: vodič
+- **Meta opis (147):** Manifestatorski generator u Human Designu: zašto preskače korake, kako izgleda strategija odgovori pa obavesti i kako da brzina ne pređe u ljutnju.
+- **Primarna:** manifestatorski generator
+- **Sekundarne:** manifestujući generator · manifesting generator srpski · MG human design · manifestatorski generator strategija · generator ili manifestatorski generator
 - **Slike:**
-  - `manifestujuci-generator-human-design-karta.webp`: Manifestujući generator u Human Designu, karta sa sakralnim centrom i motorom povezanim sa grlom
-  - `manifestujuci-generator-strategija-odgovori-obavesti.webp`: Strategija manifestujućeg generatora: odgovori, pa obavesti, potpis zadovoljstvo i mir
-- **Tagovi:** Human Design · manifestujući generator · energetski tipovi · strategija · sakralni centar · lični razvoj
+  - `manifestatorski-generator-human-design-karta.webp`: Manifestatorski generator u Human Designu, karta sa sakralnim centrom i motorom povezanim sa grlom
+  - `manifestatorski-generator-strategija-odgovori-obavesti.webp`: Strategija manifestatorskog generatora: odgovori, pa obavesti, potpis zadovoljstvo i mir
+- **Tagovi:** Human Design · manifestatorski generator · MG · energetski tipovi · strategija · sakralni centar · lični razvoj
 
 ## 3. Projektor: `/human-design/projektor/`
 - **Title (48):** Projektor u Human Designu: strategija i energija
@@ -41,18 +41,18 @@ Svaka stranica ima isti raspored: prvi pasus sa direktnim odgovorom, „Ukratko�
 - **Sekundarne:** projektor čekaj poziv · projektor strategija · projektor umor · projektor gorčina · projektor posao
 - **Slike:**
   - `projektor-human-design-karta.webp`: Projektor u Human Designu, karta bez definisanog sakralnog centra
-  - `projektor-strategija-cekaj-poziv.webp`: Strategija projektora u Human Designu: čekaj poziv i prepoznavanje, potpis uspeh, ne-sebe gorčina
+  - `projektor-strategija-cekaj-poziv.webp`: Strategija projektora u Human Designu: čekaj poziv i prepoznavanje, potpis uspeh, lažno ja: gorčina
 - **Tagovi:** Human Design · projektor · energetski tipovi · strategija · odmor · posao i karijera
 
-## 4. Manifestor: `/human-design/manifestor/`
-- **Title (45):** Manifestor u Human Designu: strategija i aura
-- **Meta opis (146):** Manifestor u Human Designu: jedini tip koji inicira. Kako obaveštavanje razlikovati od traženja dozvole i kako ljutnju zameniti mirom, uz primere.
-- **Primarna:** manifestor human design
-- **Sekundarne:** manifestor strategija obavesti · manifestor ljutnja · manifestor aura · dete manifestor · manifestor ili manifestujući generator
+## 4. Manifestator: `/human-design/manifestator/`
+- **Title (47):** Manifestator u Human Designu: strategija i aura
+- **Meta opis (148):** Manifestator u Human Designu: jedini tip koji inicira. Kako obaveštavanje razlikovati od traženja dozvole i kako ljutnju zameniti mirom, uz primere.
+- **Primarna:** manifestator human design
+- **Sekundarne:** manifestor human design · manifestator strategija informisanje · manifestator ljutnja · dete manifestator · manifestator ili manifestatorski generator
 - **Slike:**
-  - `manifestor-human-design-karta.webp`: Manifestor u Human Designu, karta sa motorom povezanim sa grlom i otvorenim sakralnim centrom
-  - `manifestor-strategija-obavesti.webp`: Strategija manifestora u Human Designu: obavesti pre nego što kreneš, potpis mir, ne-sebe ljutnja
-- **Tagovi:** Human Design · manifestor · energetski tipovi · strategija · roditeljstvo · odnosi
+  - `manifestator-human-design-karta.webp`: Manifestator u Human Designu, karta sa motorom povezanim sa grlom i otvorenim sakralnim centrom
+  - `manifestator-strategija-obavesti.webp`: Strategija manifestatora u Human Designu: obavesti pre nego što kreneš, potpis mir, lažno ja: ljutnja
+- **Tagovi:** Human Design · manifestator · energetski tipovi · strategija · roditeljstvo · odnosi
 
 ## 5. Reflektor: `/human-design/reflektor/`
 - **Title (38):** Reflektor u Human Designu: najređi tip
@@ -99,8 +99,8 @@ Svaka stranica ima isti raspored: prvi pasus sa direktnim odgovorom, „Ukratko�
     {
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type": "Question", "name": "Koja je razlika između generatora i manifestujućeg generatora?",
-         "acceptedAnswer": {"@type": "Answer", "text": "Oba tipa imaju definisan sakralni centar. Manifestujući generator ima i motor povezan sa grlom, pa je brži, češće preskače korake i ima dodatak strategiji: da obavesti pre nego što krene."}},
+        {"@type": "Question", "name": "Koja je razlika između generatora i manifestatorskog generatora?",
+         "acceptedAnswer": {"@type": "Answer", "text": "Oba tipa imaju definisan sakralni centar. Manifestatorski generator ima i motor povezan sa grlom, pa je brži, češće preskače korake i ima dodatak strategiji: da obavesti pre nego što krene."}},
         {"@type": "Question", "name": "Kako da znam da li sam odgovorila ili sam samo pokrenula nešto iz glave?",
          "acceptedAnswer": {"@type": "Answer", "text": "Odgovor dolazi brzo i telesno, često pre reči. Inicijativa iz glave obično dolazi sa objašnjenjem zašto bi nešto „trebalo“. Ako pre odluke imaš dugu listu razloga, verovatno je to um."}},
         {"@type": "Question", "name": "Da li generator može da započne nešto sam?",
@@ -112,3 +112,6 @@ Svaka stranica ima isti raspored: prvi pasus sa direktnim odgovorom, „Ukratko�
 </script>
 ```
 Tekst FAQ odgovora u schemi mora biti isti kao na stranici. Kopiraj ga iz odeljka „Česta pitanja“ svakog fajla.
+
+## Terminologija (usklađeno sa srpskom HD praksom)
+Manifestator (ne „manifestor“), manifestatorski generator / MG (ne „manifestujući generator“), lažno ja (not-self), emotivni autoritet i emotivni centar, odgovaranje (strategija generatora), informisanje (manifestator i MG), linije profila: istraživač, pustinjak, mučenik, oportunista, jeretik, uzor. Stari nazivi su ostavljeni po jednom u tekstu i kao sekundarne ključne reči, jer ih deo ljudi i dalje pretražuje.

@@ -72,3 +72,14 @@ test('podeljena definicija', () => {
   const r = analyze(synth([64, 47, 3, 60]));
   assert.equal(r.definition, 'split');
 });
+
+test('svaki tip i autoritet iz logike ima tekst na srpskom', async () => {
+  const { TYPES, AUTHORITIES, PROFILE_LINES } = await import('../src/texts.js');
+  for (const t of ['generator', 'manifesting_generator', 'projector', 'manifestor', 'reflector']) {
+    assert.ok(TYPES[t], `nedostaje tekst za tip ${t}`);
+  }
+  for (const a of ['emotional', 'sacral', 'splenic', 'ego_manifested', 'ego_projected', 'self_projected', 'mental', 'lunar']) {
+    assert.ok(AUTHORITIES[a], `nedostaje tekst za autoritet ${a}`);
+  }
+  for (let i = 1; i <= 6; i++) assert.ok(PROFILE_LINES[i]);
+});

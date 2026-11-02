@@ -182,7 +182,7 @@ function renderResult({ name, date, time, place, chart, a, cfg }) {
       <dt>Profil</dt><dd>${a.profile} (${PROFILE_LINES[l1]} / ${PROFILE_LINES[l2]})</dd>
       <dt>Definicija</dt><dd>${DEFINITIONS[a.definition]}</dd>
       <dt>Potpis</dt><dd>${t.signature}</dd>
-      <dt>Tema „ne-sebe“</dt><dd>${t.notSelf}</dd>
+      <dt>Lažno ja (not-self)</dt><dd>${t.notSelf}</dd>
       <dt>Inkarnacijski krst</dt><dd>${ANGLES[a.crossAngle]} ${a.crossGates[0]}/${a.crossGates[1]} | ${a.crossGates[2]}/${a.crossGates[3]}</dd>
       <dt>Definisani centri</dt><dd>${definedList}</dd>
     </dl>
