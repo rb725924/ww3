@@ -4,13 +4,13 @@ Sve stranice su podstranice glavnog vodiča `/human-design/`. Linkuju nazad ka v
 
 | Stranica | URL | Reči |
 |---|---|---|
-| Generator | `/human-design/generator/` | ~1.150 |
-| Manifestatorski generator | `/human-design/manifestatorski-generator/` | ~1.050 |
-| Projektor | `/human-design/projektor/` | ~1.000 |
-| Manifestator | `/human-design/manifestator/` | ~900 |
-| Reflektor | `/human-design/reflektor/` | ~950 |
+| Generator | `/human-design/generator/` | ~583 |
+| Manifestatorski generator | `/human-design/manifestatorski-generator/` | ~545 |
+| Projektor | `/human-design/projektor/` | ~543 |
+| Manifestator | `/human-design/manifestator/` | ~549 |
+| Reflektor | `/human-design/reflektor/` | ~533 |
 
-Svaka stranica ima isti raspored: prvi pasus sa direktnim odgovorom, „Ukratko“, mehaniku tipa, strategiju, potpis i temu „lažno ja“, moguće autoritete, auru, posao, odnose, odmor, zablude, eksperiment, FAQ, poziv na uslugu i izvore.
+Skraćene verzije (~550 reči). Svaka stranica ima isti raspored: prvi pasus sa direktnim odgovorom, udica, „Ukratko“, mehanika tipa, strategija, potpis i lažno ja, tip u svakodnevnom životu, „Šta ova stranica ne može da ti kaže“ (vodi na kalkulator), 2 pitanja, poziv na uslugu i izvori.
 
 ---
 
@@ -21,7 +21,7 @@ Svaka stranica ima isti raspored: prvi pasus sa direktnim odgovorom, „Ukratko�
 - **Sekundarne:** human design generator strategija · sakralni autoritet · generator čekaj da odgovoriš · generator frustracija · sakralni centar
 - **Slike:**
   - `generator-human-design-sakralni-centar.webp`: Generator u Human Designu, karta sa definisanim sakralnim centrom
-  - `generator-strategija-cekaj-da-odgovoris.webp`: Strategija generatora u Human Designu: čekaj da odgovoriš, potpis zadovoljstvo, lažno ja: frustracija
+  - `generator-strategija-cekaj-da-odgovoris.webp`: Strategija generatora u Human Designu: odgovaranje, potpis zadovoljstvo, lažno ja: frustracija
 - **Tagovi:** Human Design · generator · sakralni centar · energetski tipovi · strategija · donošenje odluka
 
 ## 2. Manifestatorski generator: `/human-design/manifestatorski-generator/`
@@ -31,7 +31,7 @@ Svaka stranica ima isti raspored: prvi pasus sa direktnim odgovorom, „Ukratko�
 - **Sekundarne:** manifestujući generator · manifesting generator srpski · MG human design · manifestatorski generator strategija · generator ili manifestatorski generator
 - **Slike:**
   - `manifestatorski-generator-human-design-karta.webp`: Manifestatorski generator u Human Designu, karta sa sakralnim centrom i motorom povezanim sa grlom
-  - `manifestatorski-generator-strategija-odgovori-obavesti.webp`: Strategija manifestatorskog generatora: odgovori, pa obavesti, potpis zadovoljstvo i mir
+  - `manifestatorski-generator-strategija-odgovori-obavesti.webp`: Strategija manifestatorskog generatora: odgovaranje, pa informisanje, potpis zadovoljstvo i mir
 - **Tagovi:** Human Design · manifestatorski generator · MG · energetski tipovi · strategija · sakralni centar · lični razvoj
 
 ## 3. Projektor: `/human-design/projektor/`
@@ -51,7 +51,7 @@ Svaka stranica ima isti raspored: prvi pasus sa direktnim odgovorom, „Ukratko�
 - **Sekundarne:** manifestor human design · manifestator strategija informisanje · manifestator ljutnja · dete manifestator · manifestator ili manifestatorski generator
 - **Slike:**
   - `manifestator-human-design-karta.webp`: Manifestator u Human Designu, karta sa motorom povezanim sa grlom i otvorenim sakralnim centrom
-  - `manifestator-strategija-obavesti.webp`: Strategija manifestatora u Human Designu: obavesti pre nego što kreneš, potpis mir, lažno ja: ljutnja
+  - `manifestator-strategija-obavesti.webp`: Strategija manifestatora u Human Designu: informisanje pre nego što kreneš, potpis mir, lažno ja: ljutnja
 - **Tagovi:** Human Design · manifestator · energetski tipovi · strategija · roditeljstvo · odnosi
 
 ## 5. Reflektor: `/human-design/reflektor/`
@@ -72,7 +72,10 @@ Svaka stranica ima isti raspored: prvi pasus sa direktnim odgovorom, „Ukratko�
 - U WordPressu postavi tipove kao **podstranice** (Parent: Human Design), da URL i breadcrumb budu ispravni.
 - Neka Ramona pročita opise tipova i ispravi ih gde se njeno tumačenje razlikuje.
 
-## Schema po stranici (primer za generatora, za ostale promeni nazive, URL i FAQ)
+## Schema po stranici (JSON-LD, u `<head>` ili preko SEO plugina)
+FAQ tekst je isti kao na stranici. Ako menjaš pitanja na stranici, promeni ih i ovde.
+
+### Generator
 ```html
 <script type="application/ld+json">
 {
@@ -80,38 +83,357 @@ Svaka stranica ima isti raspored: prvi pasus sa direktnim odgovorom, „Ukratko�
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Generator u Human Designu: strategija, autoritet i energija koja ne posustaje",
+      "headline": "Generator u Human Designu: energija koja ne posustaje, ali ne za bilo šta",
       "inLanguage": "sr-Latn-RS",
       "mainEntityOfPage": "https://amonra.in.rs/human-design/generator/",
-      "author": {"@type": "Person", "name": "Ramona Gabor", "url": "https://amonra.in.rs/"},
-      "isPartOf": {"@type": "WebPage", "url": "https://amonra.in.rs/human-design/"},
+      "author": {
+        "@type": "Person",
+        "name": "Ramona Gabor",
+        "url": "https://amonra.in.rs/"
+      },
       "datePublished": "{{DATUM}}",
-      "dateModified": "{{DATUM}}"
+      "dateModified": "{{DATUM}}",
+      "isPartOf": {
+        "@type": "WebPage",
+        "url": "https://amonra.in.rs/human-design/"
+      }
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Početna", "item": "https://amonra.in.rs/"},
-        {"@type": "ListItem", "position": 2, "name": "Human Design", "item": "https://amonra.in.rs/human-design/"},
-        {"@type": "ListItem", "position": 3, "name": "Generator", "item": "https://amonra.in.rs/human-design/generator/"}
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Početna",
+          "item": "https://amonra.in.rs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Human Design",
+          "item": "https://amonra.in.rs/human-design/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Generator",
+          "item": "https://amonra.in.rs/human-design/generator/"
+        }
       ]
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type": "Question", "name": "Koja je razlika između generatora i manifestatorskog generatora?",
-         "acceptedAnswer": {"@type": "Answer", "text": "Oba tipa imaju definisan sakralni centar. Manifestatorski generator ima i motor povezan sa grlom, pa je brži, češće preskače korake i ima dodatak strategiji: da obavesti pre nego što krene."}},
-        {"@type": "Question", "name": "Kako da znam da li sam odgovorila ili sam samo pokrenula nešto iz glave?",
-         "acceptedAnswer": {"@type": "Answer", "text": "Odgovor dolazi brzo i telesno, često pre reči. Inicijativa iz glave obično dolazi sa objašnjenjem zašto bi nešto „trebalo“. Ako pre odluke imaš dugu listu razloga, verovatno je to um."}},
-        {"@type": "Question", "name": "Da li generator može da započne nešto sam?",
-         "acceptedAnswer": {"@type": "Answer", "text": "Može, ali često zapne na pola puta jer energija ne prati odluku. Kada se nešto pokrene kao odgovor na spoljni podsticaj, energija obično traje dok se posao ne završi."}}
+        {
+          "@type": "Question",
+          "name": "Koja je razlika između generatora i manifestatorskog generatora?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oba imaju definisan sakralni centar. Manifestatorski generator ima i motor povezan sa grlom, pa je brži i pre akcije treba da obavesti druge. Više o MG-u."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako da znam da li sam odgovorila ili pokrenula nešto iz glave?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Odgovor dolazi brzo i telesno. Ako pre odluke imaš dugu listu razloga zašto bi nešto „trebalo“, verovatno je to um."
+          }
+        }
       ]
     }
   ]
 }
 </script>
 ```
-Tekst FAQ odgovora u schemi mora biti isti kao na stranici. Kopiraj ga iz odeljka „Česta pitanja“ svakog fajla.
+
+### Manifestatorski generator
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Manifestatorski generator u Human Designu: brzina koja ne mora da izgori",
+      "inLanguage": "sr-Latn-RS",
+      "mainEntityOfPage": "https://amonra.in.rs/human-design/manifestatorski-generator/",
+      "author": {
+        "@type": "Person",
+        "name": "Ramona Gabor",
+        "url": "https://amonra.in.rs/"
+      },
+      "datePublished": "{{DATUM}}",
+      "dateModified": "{{DATUM}}",
+      "isPartOf": {
+        "@type": "WebPage",
+        "url": "https://amonra.in.rs/human-design/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Početna",
+          "item": "https://amonra.in.rs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Human Design",
+          "item": "https://amonra.in.rs/human-design/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Manifestatorski generator",
+          "item": "https://amonra.in.rs/human-design/manifestatorski-generator/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kako da znam da li sam generator ili MG?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pogledaj grlo. Ako je obojeno i povezano kanalima sa nekim motorom, ti si MG. Kalkulator ti tip piše direktno."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Da li MG mora da obavesti svakoga za sve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ne. Samo one na koje odluka zaista utiče: partnera, porodicu, tim."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+```
+
+### Projektor
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Projektor u Human Designu: vidiš druge jasno, a čuju te tek kad te pozovu",
+      "inLanguage": "sr-Latn-RS",
+      "mainEntityOfPage": "https://amonra.in.rs/human-design/projektor/",
+      "author": {
+        "@type": "Person",
+        "name": "Ramona Gabor",
+        "url": "https://amonra.in.rs/"
+      },
+      "datePublished": "{{DATUM}}",
+      "dateModified": "{{DATUM}}",
+      "isPartOf": {
+        "@type": "WebPage",
+        "url": "https://amonra.in.rs/human-design/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Početna",
+          "item": "https://amonra.in.rs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Human Design",
+          "item": "https://amonra.in.rs/human-design/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Projektor",
+          "item": "https://amonra.in.rs/human-design/projektor/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Šta se računa kao poziv za projektora?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kad te neko prepozna i zatraži tvoj uvid, rad ili prisustvo: ponuda za posao, molba za savet, predlog saradnje."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Da li projektor može da ima svoj biznis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Može. Projektori su često odlični konsultanti i mentori. Ključ je da ljudi dolaze kod njih kroz preporuke i vidljivost, a ne da ih projektor juri."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+```
+
+### Manifestator
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Manifestator u Human Designu: pokretač kome jedna rečenica menja sve",
+      "inLanguage": "sr-Latn-RS",
+      "mainEntityOfPage": "https://amonra.in.rs/human-design/manifestator/",
+      "author": {
+        "@type": "Person",
+        "name": "Ramona Gabor",
+        "url": "https://amonra.in.rs/"
+      },
+      "datePublished": "{{DATUM}}",
+      "dateModified": "{{DATUM}}",
+      "isPartOf": {
+        "@type": "WebPage",
+        "url": "https://amonra.in.rs/human-design/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Početna",
+          "item": "https://amonra.in.rs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Human Design",
+          "item": "https://amonra.in.rs/human-design/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Manifestator",
+          "item": "https://amonra.in.rs/human-design/manifestator/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Da li manifestator mora da obavesti svakoga?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ne. Samo one na koje će odluka uticati: partnera, porodicu, tim."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako da znam da sam manifestator, a ne manifestatorski generator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pogledaj sakralni centar. Ako je beo, a grlo povezano sa motorom, ti si manifestator. Ako je obojen, ti si manifestatorski generator."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+```
+
+### Reflektor
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Reflektor u Human Designu: najređi tip i ogledalo svoje okoline",
+      "inLanguage": "sr-Latn-RS",
+      "mainEntityOfPage": "https://amonra.in.rs/human-design/reflektor/",
+      "author": {
+        "@type": "Person",
+        "name": "Ramona Gabor",
+        "url": "https://amonra.in.rs/"
+      },
+      "datePublished": "{{DATUM}}",
+      "dateModified": "{{DATUM}}",
+      "isPartOf": {
+        "@type": "WebPage",
+        "url": "https://amonra.in.rs/human-design/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Početna",
+          "item": "https://amonra.in.rs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Human Design",
+          "item": "https://amonra.in.rs/human-design/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reflektor",
+          "item": "https://amonra.in.rs/human-design/reflektor/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Zašto mi je karta potpuno bela?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zato što nijedan centar nije definisan. Proveri samo da li je vreme rođenja tačno, jer pogrešno vreme ponekad daje drugi tip."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Da li reflektor mora da čeka 28 dana za svaku odluku?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ne. Samo za velike životne odluke. Za svakodnevne stvari odlučuje kao i svi drugi."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+```
 
 ## Terminologija (usklađeno sa srpskom HD praksom)
 Manifestator (ne „manifestor“), manifestatorski generator / MG (ne „manifestujući generator“), lažno ja (not-self), emotivni autoritet i emotivni centar, odgovaranje (strategija generatora), informisanje (manifestator i MG), linije profila: istraživač, pustinjak, mučenik, oportunista, jeretik, uzor. Stari nazivi su ostavljeni po jednom u tekstu i kao sekundarne ključne reči, jer ih deo ljudi i dalje pretražuje.
