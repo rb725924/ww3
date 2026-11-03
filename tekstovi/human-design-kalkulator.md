@@ -142,7 +142,6 @@ Ako želiš da to prođemo zajedno, zakaži [besplatan uvodni razgovor](https://
 5. <a href="https://vreme.com/en/vesti/letnje-racunanje-vremena-casovnici-se-pomeraju-za-sat-unapred/" rel="nofollow noopener noreferrer" target="_blank">Vreme, „Letnje računanje vremena: časovnici se pomeraju za sat unapred“</a>
 6. <a href="https://raw.githubusercontent.com/cosinekitty/astronomy/master/README.md" rel="nofollow noopener noreferrer" target="_blank">Astronomy Engine, README</a>
 
-*Tekst je nastao uz pomoć veštačke inteligencije, a pre objave je pregledan i uređen.*
 
 ---
 

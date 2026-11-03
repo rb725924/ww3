@@ -161,7 +161,6 @@ Ako želiš da kartu pogledamo zajedno, [zakaži besplatan uvodni razgovor](http
 12. Fred Espenak, AstroPixels. *Geocentric Ephemeris for the Sun, 2026* (kolona Equation of Time). <a href="https://www.astropixels.com/ephemeris/sun/sun2026.html" rel="nofollow noopener noreferrer" target="_blank">astropixels.com</a>
 13. Open-Meteo. *README* (geokodiranje; bez API ključa, bez praćenja). <a href="https://github.com/open-meteo/open-meteo" rel="nofollow noopener noreferrer" target="_blank">github.com/open-meteo/open-meteo</a>
 
-*Tekst je nastao uz pomoć veštačke inteligencije, a pre objave je pregledan i uređen.*
 
 ---
 
